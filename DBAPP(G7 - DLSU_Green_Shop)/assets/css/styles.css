@@ -1,0 +1,23 @@
+:root{
+  --lasalle: #006341;
+  --lasalle-ink: #14312b;
+  --lasalle-accent: #38b000;
+}
+body{ background:#f6f8f7; }
+.navbar{ background: var(--lasalle); }
+.navbar .nav-link, .navbar .navbar-brand{ color:#fff !important; }
+.navbar .nav-link.active{ font-weight:600; text-decoration: underline; text-underline-offset: 4px; }
+.hero {
+  background: linear-gradient(180deg, rgba(0, 99, 65, 0.9), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1599785209790-3d3115903c62?q=80&w=1920&auto=format&fit=crop');
+  background-size: cover; background-position: center; color:#fff; min-height: 60vh;
+  display:flex; align-items:center;
+}
+.feature-icon{ width:40px; height:40px; display:inline-flex; align-items:center; justify-content:center; border-radius:10px; background:#e8f3ee; color:var(--lasalle); }
+.card{ border:0; box-shadow: 0 6px 20px rgba(0,0,0,.06); }
+.badge-branch{ background: var(--lasalle-accent); }
+.price{ font-weight:700; color: var(--lasalle-ink); }
+.footer{ background: #0f2a24; color:#cfe7de; }
+.footer { border-top: 1px solid rgba(255,255,255,.08); }
+.currency-flag{ width: 20px; height: 14px; border-radius:2px; display:inline-block; margin-right:.25rem; background:#ddd; }
+.offcanvas-header{ border-bottom:1px solid #eee; }
+.offcanvas-footer{ border-top:1px solid #eee; }
