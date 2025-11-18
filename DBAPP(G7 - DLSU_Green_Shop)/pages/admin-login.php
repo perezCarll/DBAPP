@@ -29,6 +29,10 @@ include __DIR__.'/../partials/header.php';
         <a href="/index.php">Back Home</a>
       </div>
     </form>
+    <div class="text-center mt-3">
+      <p class="text-muted">
+        Don't have an account? <a href="/pages/register.php" class="text-decoration-none ">Register here</a>
+      </p>
   </div>
 </section>
 <?php include __DIR__.'/../partials/footer.php'; ?>
