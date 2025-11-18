@@ -3,9 +3,9 @@
 
 $host   = '127.0.0.1';       // prefer 127.0.0.1 over 'localhost' to force TCP
 $port   = 3306;
-$db     = 'greenshop';
-$user   = 'greenshop';       // <-- use the new app user
-$pass   = 'StrongPass!123';  // <-- set the password you created
+$db     = 'merch_shop';
+$user   = 'root';       // <-- use the new app user
+$pass   = 'Root123!';  // <-- set the password you created
 $socket = '';                // e.g. '/tmp/mysql.sock' or '/var/run/mysqld/mysqld.sock' if needed
 
 try {
