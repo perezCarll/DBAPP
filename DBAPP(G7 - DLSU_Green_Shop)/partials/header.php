@@ -112,6 +112,9 @@
 
         <!-- Auth -->
         <?php if (!$me): ?>
+          <a class="btn btn-success" href="/pages/register.php">
+            <i class="bi bi-person-plus me-1"></i>Register
+          </a>
           <a class="btn btn-success" href="/pages/admin-login.php">
             <i class="bi bi-box-arrow-in-right me-1"></i>Login
           </a>
